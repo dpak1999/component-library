@@ -16,4 +16,17 @@ const PrimaryButton = styled(Button)`
   border: none;
   color: white;
 `;
+
+export const SecondaryButton = styled(Button)`
+  background: none;
+  border: 2px solid ${primaryColor};
+  color: ${primaryColor};
+`;
+
+export const TertiaryButton = styled(Button)`
+  background: none;
+  border: none;
+  color: ${primaryColor};
+`;
+
 export default PrimaryButton;
